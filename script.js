@@ -12,7 +12,7 @@ function setActiveContent(el) {
     // add .show-active back to clicked element
     document.
         getElementById(el.textContent.trim())
-        .classList.add('show-active-lame');
+        .classList.add('show-active');
 }
 
 function setActiveTab(el){
